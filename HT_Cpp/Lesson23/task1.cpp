@@ -281,9 +281,9 @@ class Building{
     }
 };
 int main(){
-    //============================ IMPORTANT================
+    //============================ IMPORTANT ================
     // Chatgpt Generated MAIN
-    //============================ IMPORTANT================
+    //============================ IMPORTANT ================
     
     cout << "--- Starting Building Simulation (Level 1) ---" << endl;
 
