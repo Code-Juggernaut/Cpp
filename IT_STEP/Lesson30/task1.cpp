@@ -68,8 +68,6 @@ class BST{
                 node = node->right;
             }
             return node->data;
-
-
         }
     };      
 
@@ -96,9 +94,9 @@ int main(){
     for(int i = 0;i<10;i++){
         //Array[i] = rand()%1000;
         binary_tree.insert(Array[i]);
-    }
+    }/*
     cout<<"max = "<<binary_tree.findmax()<<endl;
-    cout<<"max = "<<binary_tree.findmin()<<endl;
+    cout<<"max = "<<binary_tree.findmin()<<endl;*/
     /*int target = Array[SIZE/2]; 
 
     auto start1 = high_resolution_clock::now();
