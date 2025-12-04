@@ -38,4 +38,9 @@ int main(){
     for(const Student &i:students){
         cout<<i;
     }
+    sort(students.begin(),students.end(),greater<Student>());
+    cout<<" <INFO> "<<endl;
+    for(const Student &i:students){
+        cout<<i;
+    }
 }

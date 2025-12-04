@@ -16,7 +16,7 @@ int main(){
     cout<<endl;
     
     const char *arr1[] = {"Hello", "World!","I"};
-    const char *arr2[] = {"I am","Code_Juggernaught","See you"};
+    const char *arr2[] = {"I am","Code_Juggernaut","See you"};
     deque<const char *>names(arr1,arr1+3);
     // insert_iterator<deque<const char *>>it(names,names.begin()+2);
     // copy(arr2,arr2+3,it);
