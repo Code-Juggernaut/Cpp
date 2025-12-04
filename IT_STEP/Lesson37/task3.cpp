@@ -17,6 +17,9 @@ class Student{
         int get_grade()const{
             return _grade;
         }
+        bool operator<(const Student &other){
+            return this->_grade<other._grade;
+        }
         friend ostream& operator<<(ostream &stream, const Student &data){
             stream<<data._name<<" ("<<data._grade<<")"<<endl;
             return stream;
@@ -25,7 +28,13 @@ class Student{
 
 int main(){
     vector<Student> students = {{"Mark",10},{"John",3},{"Bob",9},{"Eva",6}};
-    cout<<" <INFO> ";
+    cout<<" <INFO> "<<endl;
+    for(const Student &i:students){
+        cout<<i;
+    }
+    sort(students.begin(),students.end());
+    cout<<endl;
+    cout<<" <INFO> "<<endl;
     for(const Student &i:students){
         cout<<i;
     }
