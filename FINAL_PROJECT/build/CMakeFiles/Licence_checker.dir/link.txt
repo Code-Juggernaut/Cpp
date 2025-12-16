@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLicence_checker.a CMakeFiles/Licence_checker.dir/Libs/Licence_checker.cpp.o
+/usr/bin/ranlib libLicence_checker.a

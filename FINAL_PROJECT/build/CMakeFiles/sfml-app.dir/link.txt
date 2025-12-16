@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sfml-app.dir/link.d "CMakeFiles/sfml-app.dir/main.cpp.o" -o sfml-app  libLicence_checker.a libAutosave.a -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio

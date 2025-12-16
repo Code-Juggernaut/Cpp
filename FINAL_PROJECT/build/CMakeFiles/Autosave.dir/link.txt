@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAutosave.a CMakeFiles/Autosave.dir/Libs/Autosave.cpp.o
+/usr/bin/ranlib libAutosave.a

@@ -1,0 +1,5 @@
+/home/amo999/Desktop/C++/FINAL_PROJECT/build/CMakeFiles/Licence_checker.dir
+/home/amo999/Desktop/C++/FINAL_PROJECT/build/CMakeFiles/Autosave.dir
+/home/amo999/Desktop/C++/FINAL_PROJECT/build/CMakeFiles/sfml-app.dir
+/home/amo999/Desktop/C++/FINAL_PROJECT/build/CMakeFiles/edit_cache.dir
+/home/amo999/Desktop/C++/FINAL_PROJECT/build/CMakeFiles/rebuild_cache.dir

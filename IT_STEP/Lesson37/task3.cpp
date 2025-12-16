@@ -38,7 +38,13 @@ int main(){
     for(const Student &i:students){
         cout<<i;
     }
-    sort(students.begin(),students.end(),greater<Student>());
+    sort(students.begin(),students.end(),[](const Student &this_,const Student &other){return this_.get_grade()>other.get_grade();});
+    cout<<" <INFO> "<<endl;
+    for(const Student &i:students){
+        cout<<i;
+    }
+    students.erase(remove_if(students.begin(),students.end(),[](const Student &this_){return this_.get_grade()<6;}),students.end());
+    
     cout<<" <INFO> "<<endl;
     for(const Student &i:students){
         cout<<i;
